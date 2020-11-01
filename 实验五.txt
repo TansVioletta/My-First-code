@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+	int x,y;
+	printf("请输入数字1-7:");
+	scanf("%d",&x);
+	switch(x)
+		{
+		case 1:printf("今天周一，老赵值班\n");break;
+		case 2:printf("今天周二，老钱值班\n");break;
+		case 3:printf("今天周三，小孙值班\n");break;
+		case 4:printf("今天周四，小李值班\n");break;
+		case 5:printf("今天周五，老周值班\n");break;
+		case 6:printf("今天周六，小刘值班\n");break;
+		case 7:printf("今天周日，全体休息\n");break;
+		}
+	return 0;
+}

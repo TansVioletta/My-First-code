@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+	int a,y;
+	printf("a=");
+	scanf("%d",&a);
+	if(a<1)
+	{
+		y=a;
+	}
+	else if(1<=a&&a<=10)
+	{
+		y=2*a-1;
+	}
+	else
+	{
+		y=3*a-1;
+	}
+	printf("y=%d\n",y);
+	return 0;
+}

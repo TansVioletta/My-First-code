@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main()
+{
+	int s,x,y,z;
+	printf("请输入性别（1男，女2）：");
+	scanf("%d",&s);
+	if(s=1)
+	{
+		printf("请分别输入身高，体重，年龄\n");
+		scanf("%d%d%d",&x,&y,&z);
+		if(x>170,y>60,18<=z&&z<=24)
+			printf("Check\n销售业务员\n");
+		else if(x>170,y>60,z>24)
+			printf("Check\n售后服务人员\n");
+		else
+			printf("Out\n");
+		return 0;
+	}
+	if(s=2)
+	{
+		printf("请分别输入身高，体重，年龄\n");
+		scanf("%d%d%d",&x,&y,&z);
+		if(x>160,y>45,18<=z&&z<=24)
+			printf("Check\n销售业务员\n");
+		else if(x>160,y>45,z>24)
+			printf("Check\n售后服务人员\n");
+		else
+			printf("Out\n");
+		return 0;
+	}
+}
